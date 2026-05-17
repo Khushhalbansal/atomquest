@@ -1,5 +1,7 @@
 # 🌟 AtomQuest — Enterprise Habit-Tracking & Gamified Appraisal Ecosystem
 
+**🚀 Live Demo:** [https://goal-setting-and-trackin-d3f97.web.app](https://goal-setting-and-trackin-d3f97.web.app)
+
 AtomQuest is an enterprise-grade, gamified personal development and habit-tracking ecosystem engineered using **React 19**, **Vite**, and **Firebase**. Inspired by behavioral psychology frameworks (including James Clear's *Atomic Habits* and Yu-kai Chou's *Octalysis* gamification matrix), AtomQuest models human progress as an interactive experience or "quest". Users are incentivized via experience points (XP), dynamic goal-tracking configurations, streak parameters, and real-time team feedback.
 
 The core architecture emphasizes extreme modularity, responsive viewport compatibility, role-based governance frameworks, and live contextual assistance driven by an embedded AI micro-engine. This document covers the comprehensive operational layout, architectural flow-charts, production deployment pipelines, and the complete functional verification suite.
@@ -174,12 +176,12 @@ npm install
 ### 6.3 Environment Configuration
 Create a file named `.env` inside the root directory and declare your respective Firebase project environment tokens:
 ```env
-VITE_FIREBASE_API_KEY=AIzaSyCVKLf6L3QHcLIE5OL5I71Sxx4J6WY31gE
-VITE_FIREBASE_AUTH_DOMAIN=goal-setting-and-trackin-d3f97.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=goal-setting-and-trackin-d3f97
-VITE_FIREBASE_STORAGE_BUCKET=goal-setting-and-trackin-d3f97.firebasestorage.app
-VITE_FIREBASE_MESSAGING_SENDER_ID=11218822032
-VITE_FIREBASE_APP_ID=1:11218822032:web:e6993d86429c0d17528915
+VITE_FIREBASE_API_KEY="your_api_key_here"
+VITE_FIREBASE_AUTH_DOMAIN="goal-setting-and-trackin-d3f97.firebaseapp.com"
+VITE_FIREBASE_PROJECT_ID="goal-setting-and-trackin-d3f97"
+VITE_FIREBASE_STORAGE_BUCKET="goal-setting-and-trackin-d3f97.firebasestorage.app"
+VITE_FIREBASE_MESSAGING_SENDER_ID="your_messaging_sender_id"
+VITE_FIREBASE_APP_ID="your_app_id"
 ```
 
 ### 6.4 Compiling & Running the Local Server
