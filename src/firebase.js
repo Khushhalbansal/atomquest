@@ -4,13 +4,13 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCVKLf6L3QHcLIE5OL5I71Sxx4J6WY31gE",
-  authDomain: "goal-setting-and-trackin-d3f97.firebaseapp.com",
-  projectId: "goal-setting-and-trackin-d3f97",
-  storageBucket: "goal-setting-and-trackin-d3f97.firebasestorage.app",
-  messagingSenderId: "11218822032",
-  appId: "1:11218822032:web:e6993d86429c0d17528915",
-  measurementId: "G-KXG0G0C5YE"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
